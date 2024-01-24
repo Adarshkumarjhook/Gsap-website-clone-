@@ -1,0 +1,143 @@
+@font-face {
+    font-family: yo_font_1;
+    src: url(./font/PPMori-Extralight.otf);
+}
+
+@font-face {
+    font-family: yo_font_2;
+    src: url(./font/PPMori-Regular.otf);
+}
+
+@font-face {
+    font-family: yo_font_3;
+    src: url(./font/PPMori-SemiBold.otf);
+}
+
+@font-face {
+    font-family: yo_font_4;
+    src: url(./font/PPMori-SemiBoldItalic.otf);
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    /*     background: #0E100F;
+    color :#FFFCE1;
+ */
+    height: 100%;
+    font-family: yo_font_2;
+}
+
+.page_1 {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.page_1 nav {
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #00000029;
+    padding: 0 3vw;
+    background: #0E100F;
+    color: #FFFCE1;
+    z-index: 99;
+    position: sticky;
+}
+
+.page_1 nav .left_nav {
+    font-size: 2vw;
+    font-family: yo_font_4;
+    font-weight: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right_nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.right_nav .right_nav_monu {
+    border: 0.2vw solid #FFFCE1;
+    height: 5vw;
+    padding: 0 2vw;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3vw;
+
+}
+
+.right_nav .right_nav_monu .line_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 0.6vw;
+
+}
+
+.right_nav .right_nav_monu .line_box .line {
+    width: 5vw;
+    height: .4vw;
+    background: #FFFCE1;
+    border-radius: 10px;
+
+}
+
+.yo_hero {
+    width: 100%;
+    min-height: calc(50vh - 10vw);
+}
+
+.yo_hero_ {
+    background: #5BC095;
+    width: 100%;
+}
+
+.yo_hero_text_1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.yo_hero_text_1 h1 {
+    font-size: 15vw;
+    letter-spacing: -2.2vw;
+    font-family: yo_font_3;
+    font-weight: 1000;
+}
+
+.yo_hero_text_2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.yo_hero_text_2 h1 {
+    font-size: 15vw;
+    letter-spacing: -2.2vw;
+    font-family: yo_font_3;
+    font-weight: 1000;
+
+}

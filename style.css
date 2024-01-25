@@ -45,7 +45,7 @@ body {
     /*     background: #0E100F;
     color :#FFFCE1;
  */
-     background: var(--yo_color_1);
+    background: var(--yo_color_1);
 
     height: 100%;
     font-family: yo_font_2;
@@ -54,8 +54,9 @@ body {
 .page_1 {
     width: 100%;
     min-height: 100vh;
-    overflow: hidden;
-    display: none1;/* _₹&___________ */
+    position: relative;
+    display: none1;
+    /* _₹&___________ */
 }
 
 .page_1 nav {
@@ -247,7 +248,7 @@ body {
     border-radius: 59px;
     padding: 1.5vw 3.5vw;
     font-family: yo_font_4;
-    
+
 }
 
 

@@ -36,6 +36,7 @@ line_box.addEventListener('click', function() {
         on = true;
     }
     else {
+
         gsap.to('nav', {
             background: '#0E100F',
             color: '#FFFCE1',
@@ -60,6 +61,7 @@ line_box.addEventListener('click', function() {
 
         })
         on = false;
+
     }
 
 
@@ -71,7 +73,7 @@ line_box.addEventListener('click', function() {
 
 
 gsap.from('.yo_hero_text_1 h1,.yo_hero_text_2 h1', {
-   // rotate: 40,
-    letterSpacing:"-1vw",
-    duration:2,
+    // rotate: 40,
+    letterSpacing: "-1vw",
+    duration: 2,
 })

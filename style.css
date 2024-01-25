@@ -39,10 +39,6 @@ img {
     height: 100%;
     object-fit: cover;
 }
-.top_boder{
-    border:  0.5px solid silver;
-}
-
 
 body {
     width: 100%;
@@ -59,7 +55,7 @@ body {
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    display: none;/* _₹&___________ */
+    display: none1;/* _₹&___________ */
 }
 
 .page_1 nav {

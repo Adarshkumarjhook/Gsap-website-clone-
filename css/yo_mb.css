@@ -1,0 +1,209 @@
+@media (max-width: 600px) {
+    .page_1 nav {
+        width: 100%;
+        height: 17vw;
+        /*  */
+        /*  */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #00000029;
+        padding: 0 3vw;
+        background: #0E100F;
+        color: #FFFCE1;
+        z-index: 99;
+        position: sticky;
+    }
+
+    .page_1 nav .left_nav {
+        font-size: 5vw;
+        /*  */
+        font-family: yo_font_4;
+        font-weight: 10000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .right_nav {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .right_nav .right_nav_monu {
+        border: 0.6vw solid #FFFCE1;
+        /*  */
+        height: 8vw;
+        /*  */
+        display: block;
+        /*  */
+        width: 23vw;
+        /* , */
+        /*  */
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2vw;
+        /*  */
+        font-size: 2.5vw;
+
+
+    }
+
+    .right_nav .right_nav_monu .line_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        gap: 0.6vw;
+
+    }
+
+    .right_nav .right_nav_monu .line_box .line {
+        width: 7vw;
+        height: .6vw;
+        border-radius: 10px;
+
+    }
+
+    /* ___❌❌________❌❌____❌❌❌_______₹_₹ */
+
+    .yo_hero {
+        width: 100%;
+        min-height: calc(100vh - 10vw);/*  */
+        color: var(--yo_color_2);
+        background: var(--yo_color_1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .yo_hero_ {
+        width: 100%;
+        padding: 2vw 6vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4vw;
+
+
+    }
+
+    .yo_hero_text_1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .yo_hero_text_1 h1 {
+        font-size: 16.5vw;
+        letter-spacing: -2.2vw;
+        font-family: yo_font_3;
+        font-weight: 1000;
+        line-height: 0.5;
+    }
+
+    #n {
+        position: relative;
+
+    }
+
+    #n:after {
+        content: '';
+        position: absolute;
+        width: 7vw;
+        height: 7vw;
+        top: -5vw;
+        left: 0.5vw;
+        background-image: url(/svg/falver.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform: rotate(0deg);
+        animation: rotate 2s ease-in-out infinite;
+    }
+
+    @keyframes rotate {
+        to {
+            transform: rotate(180deg);
+        }
+    }
+
+
+
+
+
+
+
+
+    .yo_hero_text_2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+    }
+
+    .yo_hero_text_2 h1 {
+        font-size: 16.5vw;
+        letter-spacing: -2.2vw;
+        font-family: yo_font_3;
+        font-weight: 1000;
+        color: #FFFCE1;
+
+    }
+
+
+
+
+
+
+
+    .yo_hero_text_3 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .yo_hero_text_3_text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.2em;
+    }
+
+    .yo_hero_text_3_text li {
+        list-style-type: none;
+        max-width: 32vw;
+        color: var(--yo_color_2);
+        font-family: yo_font_3;
+
+    }
+
+    .yo_hero_text_3_text span {
+        font-size: 8vw;
+        color: var(--yo_color_2);
+        font-family: yo_font_1;
+
+
+    }
+
+    .yo_hero_text_3_btn {
+        border: 0.2vw solid #1AC424;
+        border-radius: 59px;
+        padding: 1.5vw 3.5vw;
+        font-family: yo_font_4;
+
+    }
+
+
+
+}

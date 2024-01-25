@@ -52,7 +52,7 @@ body {
 }
 
 .page_1 {
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
     position: relative;
     display: none1;
@@ -250,7 +250,7 @@ body {
     font-family: yo_font_4;
 
 }
-
+/* _________________________________ */
 
 .canteen {
     width: 100%;

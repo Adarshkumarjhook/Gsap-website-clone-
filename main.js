@@ -67,3 +67,11 @@ line_box.addEventListener('click', function() {
 
 
 })
+//yo_nav_slider_on_btn.style.animationDuration
+
+
+gsap.from('.yo_hero_text_1 h1,.yo_hero_text_2 h1', {
+   // rotate: 40,
+    letterSpacing:"-1vw",
+    duration:2,
+})

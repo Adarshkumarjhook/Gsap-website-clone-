@@ -39,7 +39,9 @@ img {
     height: 100%;
     object-fit: cover;
 }
-
+.top_boder{
+    border:  0.5px solid silver;
+}
 
 
 body {
@@ -47,6 +49,8 @@ body {
     /*     background: #0E100F;
     color :#FFFCE1;
  */
+     background: var(--yo_color_1);
+
     height: 100%;
     font-family: yo_font_2;
 }
@@ -55,6 +59,7 @@ body {
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
+    display: none;/* _₹&___________ */
 }
 
 .page_1 nav {
@@ -177,7 +182,7 @@ body {
 
 @keyframes rotate {
     to {
-        transform: rotate(360deg);
+        transform: rotate(180deg);
     }
 }
 
@@ -222,12 +227,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1vw;
+    gap: 0.2em;
 }
 
 .yo_hero_text_3_text li {
     list-style-type: none;
-    width: 32vw;
+    max-width: 32vw;
     color: var(--yo_color_2);
     font-family: yo_font_3;
 
@@ -242,8 +247,30 @@ body {
 }
 
 .yo_hero_text_3_btn {
-    border: 0.2vw solid var(--yo_color_2);
+    border: 0.2vw solid #1AC424;
     border-radius: 59px;
-    padding: 1vw 2vw;
-    font-family: yo_font_3;
+    padding: 1.5vw 3.5vw;
+    font-family: yo_font_4;
+    
+}
+
+
+.canteen {
+    width: 100%;
+    height: 50vh;
+    background: var(--yo_color_1);
+    color: var(--yo_color_2);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4vw;
+    padding: 6vw;
+    line-height: 1.2;
+}
+
+.canteen h1 {
+    font-family: yo_font_1;
+    font-size: 5.3vw;
+    width: 100%;
 }

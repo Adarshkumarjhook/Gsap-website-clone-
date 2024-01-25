@@ -5,6 +5,7 @@
     height: 100vh;
     top: 0;
     display: none;
+    z-index: 99;
 }
 
 
@@ -22,6 +23,8 @@
     background: #FFFCE1;
     border-radius: 5px;
     transform: translateX(120vw);
+    transition-timing-function: ease-in-out;
+
 }
 
 .yo_nav_slider .slider_2 {

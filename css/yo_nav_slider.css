@@ -30,8 +30,13 @@
 .yo_nav_slider .slider_2 {
     width: 100%;
     height: 10%;
-    background: #0E100F;
-    border-radius: 3px;
+    background: #58CC92;
+    border-radius: 6px;
+    border: 3px solid var(--yo_color_2);
     transform: translateX(-120vw);
 
 }
+
+
+
+

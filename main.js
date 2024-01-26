@@ -71,9 +71,37 @@ line_box.addEventListener('click', function() {
 })
 //yo_nav_slider_on_btn.style.animationDuration
 
+var timeline = gsap.timeline({
+    duration:0.5,
+});
+console.log(timeline)
+
+// Add animations to the timeline
+timeline.to(".line", {
+    width: 0,
+}).to(".line_2", {
+    display: 'none'
+}).to(".line", {
+    width: "6vw",
+}).to('.line_1', {
+    rotate: 45,
+    position: 'absolute'
+
+}).to('.line_3', {
+    rotate: -45,
+    position: 'absolute'
+
+
+})
+
+
+
+
+
+
 
 gsap.from('.yo_hero_text_1 h1,.yo_hero_text_2 h1', {
     // rotate: 40,
-    letterSpacing: "-1vw",
+    letterSpacing: "-2.7vw",
     duration: 2,
 })

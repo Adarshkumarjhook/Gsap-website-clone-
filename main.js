@@ -45,7 +45,7 @@ line_box.addEventListener('click', function() {
       })
 
       .to('.line_2', {
-        display:'none'
+        display: 'none'
       })
 
 
@@ -99,7 +99,8 @@ line_box.addEventListener('click', function() {
 
 
 })
-//yo_nav_slider_on_btn.style.animationDuration
+
+//yo_nav_slider_on_btn.style.scale
 
 
 
@@ -107,6 +108,21 @@ line_box.addEventListener('click', function() {
 
 gsap.from('.yo_hero_text_1 h1,.yo_hero_text_2 h1', {
   // rotate: 40,
-  letterSpacing: "-2.7vw",
+  letterSpacing: "-0.7vw",
   duration: 2,
+  ease:"bounce.out",
+
+
 })
+
+gsap.from('#h_', {
+   //rotateX: "-40deg",
+  //letterSpacing: "0vw",
+  scale:4,
+  
+  duration: 2,
+  ease:"bounce.out",
+
+
+})
+
